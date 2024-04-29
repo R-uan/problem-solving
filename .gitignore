@@ -1,0 +1,30 @@
+# Ignore Visual Studio files
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Ignore build and output files
+bin/
+obj/
+*.exe
+*.pdb
+*.dll
+*.exe.manifest
+*.log
+*.DS_Store
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+!.nuget/
+*.pfx
+# End of Visual Studio specific files
+
+# Ignore Unity generated files
+Library/
+Temp/
+UnityPackageManager/
