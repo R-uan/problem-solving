@@ -23,4 +23,18 @@ public class WalkiesTests {
 		bool result = Walkies.Walk(BadWalkie);
 		Assert.IsFalse(result);
 	}
+
+	[Test]
+	public void TestBadWalkie2() {
+		char[] BadWalkie = { 'n', 's', 's', 's', 's', 'e', 'e', 'e', 'e', 'w' };
+		bool result = Walkies.Walk(BadWalkie);
+		Assert.IsFalse(result);
+	}
+
+	[Test]
+	public void TestProblem() {
+		char[] Problem = { 'n', 'n', 'n', 'n', 'n', 'e', 'e', 'e', 'e', 'e' };
+		bool result = Walkies.Walk(Problem);
+		Assert.IsFalse(result);
+	}
 }
