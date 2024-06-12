@@ -1,4 +1,4 @@
-﻿namespace Leet;
+﻿namespace Leetwars;
 
 public class TargetHour {
 	public static int Run(int[] hours, int target) {

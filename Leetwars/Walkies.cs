@@ -1,4 +1,4 @@
-namespace Leet;
+namespace Leetwars;
 
 class Walkies {
 	public static bool Walk(char[] directions) {

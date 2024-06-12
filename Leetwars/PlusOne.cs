@@ -1,4 +1,4 @@
-namespace Leet;
+namespace Leetwars;
 public class PlusOne {
     public int[] PlusOne2(int[] digits) {
         for (int i = digits.Length - 1; i >= 0; i--) {

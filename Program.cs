@@ -1,2 +1,6 @@
-﻿Dictionary<char, char> a = new Dictionary<char, char>() { { 'a', '1' }, { 'b', '2' } };
-System.Console.WriteLine(a['a']);
+﻿string text = @"  //wont won't won't ";
+
+List<string> teste = Leetwars.BigThree.TopThree(text);
+foreach (string test in teste) {
+	System.Console.WriteLine(test);
+}

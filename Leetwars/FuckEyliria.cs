@@ -1,4 +1,4 @@
-namespace Leet;
+namespace Leetwars;
 
 public class FuckEyliria {
 	public static bool Cry(string text) {

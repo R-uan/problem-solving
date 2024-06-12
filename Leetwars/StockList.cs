@@ -1,4 +1,4 @@
-﻿namespace Leet;
+﻿namespace Leetwars;
 
 public class StockList {
 	public static string StockSummary(string[] lstOfArt, string[] lstOf1stLetter) {

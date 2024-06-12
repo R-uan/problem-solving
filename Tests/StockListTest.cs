@@ -1,4 +1,4 @@
-﻿namespace Leet;
+﻿namespace Leetwars;
 using System;
 using NUnit.Framework;
 

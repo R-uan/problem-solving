@@ -1,4 +1,4 @@
-using Leet;
+using Leetwars;
 using NUnit.Framework;
 
 [TestFixture]

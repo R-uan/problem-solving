@@ -1,4 +1,4 @@
-﻿namespace Leet;
+﻿namespace Leetwars;
 
 public class Camelo {
 	public static string CamelCase(string str) {
